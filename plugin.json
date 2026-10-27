@@ -1,0 +1,19 @@
+{
+  "name": "my-edit-tools",
+  "displayName": "编辑工具插件",
+  "version": "0.0.1",
+  "description": "提供查找、格式化、打开终端等编辑辅助工具",
+  "commands": [
+    { "id": "my-edit-tools.find", "title": "查找", "handler": "find" },
+    { "id": "my-edit-tools.openTerminal", "title": "打开终端", "handler": "openTerminal" },
+    { "id": "my-edit-tools.formatSelection", "title": "格式化选中代码", "handler": "formatSelection" }
+  ],
+  "menus": {
+    "editor/context": [
+      { "command": "my-edit-tools.formatSelection", "group": "1_smart@1" }
+    ],
+    "menubar/file": [
+      { "command": "my-edit-tools.openTerminal", "group": "3_terminal@1" }
+    ]
+  }
+}

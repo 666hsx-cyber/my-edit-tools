@@ -1,0 +1,9 @@
+{
+  "extension.displayName": "编辑工具插件",
+  "extension.description": "提供查找、格式化、打开终端等编辑辅助工具",
+  "command.find.title": "查找",
+  "command.openTerminal.title": "打开终端",
+  "command.formatSelection.title": "格式化选中代码",
+  "configuration.title": "编辑工具插件",
+  "configuration.enabled.description": "启用或禁用编辑工具插件的功能"
+}

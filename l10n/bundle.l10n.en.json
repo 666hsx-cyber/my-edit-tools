@@ -1,0 +1,11 @@
+{
+  "No active editor": "No active editor",
+  "Plugin Terminal": "Plugin Terminal",
+  "Please select code to format first": "Please select code to format first",
+  "Format successful": "Format successful",
+  "Format failed: {error}": "Format failed: {error}",
+  "Edit tools plugin activated": "Edit tools plugin activated",
+  "Edit tools plugin deactivated": "Edit tools plugin deactivated",
+  "Edit tools plugin enabled": "Edit tools plugin enabled",
+  "Edit tools plugin disabled": "Edit tools plugin disabled"
+}

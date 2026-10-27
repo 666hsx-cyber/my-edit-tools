@@ -1,0 +1,9 @@
+{
+  "extension.displayName": "Edit Tools",
+  "extension.description": "Provides find, format, open terminal and other editing helpers",
+  "command.find.title": "Find",
+  "command.openTerminal.title": "Open Terminal",
+  "command.formatSelection.title": "Format Selection",
+  "configuration.title": "Edit Tools Plugin",
+  "configuration.enabled.description": "Enable or disable the edit tools plugin"
+}

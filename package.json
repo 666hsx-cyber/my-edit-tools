@@ -1,0 +1,49 @@
+{
+  "name": "my-edit-tools",
+  "displayName": "%extension.displayName%",
+  "description": "%extension.description%",
+  "version": "0.0.1",
+  "publisher": "my-company",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./out/index.js",
+  "l10n": "./l10n",
+  "contributes": {
+    "commands": [
+      { "command": "my-edit-tools.find", "title": "%command.find.title%" },
+      { "command": "my-edit-tools.openTerminal", "title": "%command.openTerminal.title%" },
+      { "command": "my-edit-tools.formatSelection", "title": "%command.formatSelection.title%" }
+    ],
+    "menus": {
+      "editor/context": [
+        { "command": "my-edit-tools.formatSelection", "group": "1_smart@1","when": "config.my-edit-tools.enabled" }
+      ],
+      "menubar/file": [
+        { "command": "my-edit-tools.openTerminal", "group": "3_terminal@1","when": "config.my-edit-tools.enabled" },
+        { "command": "my-edit-tools.find", "group": "3_terminal@1","when": "config.my-edit-tools.enabled" }
+      ]
+    },
+    "configuration": {
+      "title": "%configuration.title%",
+      "properties": {
+        "my-edit-tools.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "%configuration.enabled.description%"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}

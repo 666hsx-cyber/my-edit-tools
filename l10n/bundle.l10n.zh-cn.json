@@ -1,0 +1,11 @@
+{
+  "No active editor": "没有活动的编辑器",
+  "Plugin Terminal": "插件终端",
+  "Please select code to format first": "请先选择要格式化的代码",
+  "Format successful": "格式化成功",
+  "Format failed: {error}": "格式化失败: {error}",
+  "Edit tools plugin activated": "编辑工具插件已激活",
+  "Edit tools plugin deactivated": "编辑工具插件已停用",
+  "Edit tools plugin enabled": "编辑工具插件已启用",
+  "Edit tools plugin disabled": "编辑工具插件已禁用"
+}
